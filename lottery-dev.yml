@@ -27,6 +27,11 @@ spring:
     timeout: 60000
   session:
     store-type: redis
+  rabbitmq:
+    host: 10.100.17.155
+    port: 5672
+    username: guest
+    password: guest
 activity:
   id: 1
   beginDate: 2017-09-01 00:00:00
